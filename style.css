@@ -112,14 +112,20 @@ nav ul li a {
 	overflow: hidden;
 	font-size: 1.5rem;
 	margin-bottom: 10px;
-	animation: flowing 10s linear infinite;   
- 　　   transform:translateX(100%);  
+	display: -webkit-box;
+  　　　　-webkit-box-orient: vertical;
+ 　　　　 text-overflow: ellipsis;
+　　　　  -webkit-line-clamp: 3; /* 3行まで表示 */
 }
 
-@keyframes flowing {
-  100% {
-    transform:translateX(-100%);    /*終了の位置*/
+@media screen and (max-width: 768px) {
+  .line-clamp {
+    display: block;
+    overflow: visible;
+    -webkit-line-clamp: unset;
   }
+}
+
 #gallery {
 	padding: 50px;
 	background-color: #f9f9f9;
