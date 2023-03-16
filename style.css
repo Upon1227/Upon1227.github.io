@@ -86,11 +86,19 @@ nav ul li a {
 }
 
 #services ul button {
-	width: 30%;
-	padding: 10px 20px;
-	background-color: #f39c12;
-	box-shadow: 0 0 10px rgba(120,54,30,0.1);
-	border: none;
+ display: inline-block;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: #2D3B55;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 #services h3 {
