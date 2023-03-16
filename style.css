@@ -86,6 +86,8 @@ nav ul li a {
 }
 
 #services ul button {
+　　　　  position: relative;
+ 　　　　 overflow: hidden;
 	height: 250px;
 	width: 32%;
         display: inline-block;
