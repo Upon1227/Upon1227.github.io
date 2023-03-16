@@ -112,19 +112,10 @@ nav ul li a {
 	overflow: hidden;
 	font-size: 1.5rem;
 	margin-bottom: 10px;
-	display: -webkit-box;
-  　　　　-webkit-box-orient: vertical;
- 　　　　 text-overflow: ellipsis;
-　　　　  -webkit-line-clamp: 3; /* 3行まで表示 */
+  　　　　height: 150px;
+ 　　　　 word-wrap: break-word
 }
 
-@media screen and (max-width: 768px) {
-  .line-clamp {
-    display: block;
-    overflow: visible;
-    -webkit-line-clamp: unset;
-  }
-}
 
 #gallery {
 	padding: 50px;
