@@ -1,0 +1,52 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #0077cc;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 32px;
+}
+
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 0 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+p {
+	margin: 0;
+}
+
+.answer {
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.answer p {
+	margin: 0;
+}
