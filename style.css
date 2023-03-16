@@ -87,10 +87,10 @@ nav ul li a {
 
 #services button {
 	width: 30%;
-	padding: 20px;
-	background-color: #000000;
+	padding: 10px 20px;
+	background-color: #f39c12;
 	box-shadow: 0 0 10px rgba(120,54,30,0.1);
-	border-radius: 5px;
+	border: none;
 }
 
 #services h3 {
