@@ -87,7 +87,9 @@ nav ul li a {
 
 #services ul button {
 　　　　  position: relative;
- 　　　　 overflow: hidden;
+  　　　　overflow: hidden;
+ 　　　　 white-space: nowrap;
+ 　　　　 text-overflow: ellipsis;
 	height: 250px;
 	width: 32%;
         display: inline-block;
@@ -107,6 +109,21 @@ nav ul li a {
 #services ul button:hover{
   background-color: #000;
   color: #fff;
+}
+
+#services ul button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  background-color: inherit;
+}
+
+#services ul button　> * {
+  position: relative;
+  z-index: 1;
 }
 
 #services h3 {
